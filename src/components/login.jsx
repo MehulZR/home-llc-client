@@ -32,7 +32,7 @@ function LoginForm({ setLoggedIn }) {
   return (
     <div className="bg-gray-200">
       <div className="container h-screen flex flex-col items-center justify-center">
-        <div className="flex flex-col w-96 bg-white shadow-xl rounded-lg p-4 space-y-6">
+        <div className="flex flex-col sm:w-96 bg-white shadow-xl rounded-lg p-4 space-y-6">
           <div>
             <p className="text-2xl font-medium mb-2">Log in</p>
             <p className="text-xs text-gray-500">
@@ -59,14 +59,14 @@ function LoginForm({ setLoggedIn }) {
               <Field
                 name="email"
                 type="email"
-                className="outline-none bg-gray-100 rounded p-2"
+                className="outline-none bg-gray-100 rounded p-2 w-full"
                 placeholder="Email"
               />
               <ErrorMessage name="email" />
               <Field
                 name="password"
                 type="password"
-                className="outline-none bg-gray-100 rounded p-2"
+                className="outline-none bg-gray-100 rounded p-2 w-full"
                 placeholder="Password"
               />
               <ErrorMessage name="password" className="text-red-400" />

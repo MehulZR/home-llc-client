@@ -94,26 +94,26 @@ function ResetPassword() {
                 name="email"
                 type="text"
                 placeholder="Email"
-                className="outline-none p-2 bg-gray-100 rounded"
+                className="outline-none p-2 bg-gray-100 rounded w-full"
               />
               <ErrorMessage name="email" />
               <Field
                 name="password"
                 type="password"
                 placeholder="Password"
-                className="outline-none p-2 bg-gray-100 rounded"
+                className="outline-none p-2 bg-gray-100 rounded w-full"
               />
               <ErrorMessage name="password" />
               <Field
                 name="confirm_password"
                 type="password"
                 placeholder="Confirm Password"
-                className="outline-none p-2 bg-gray-100 rounded"
+                className="outline-none p-2 bg-gray-100 rounded w-full"
               />
               <ErrorMessage name="confirm_password" />
               <button
                 type="submit"
-                className="bg-blue-700 text-white p-3 rounded"
+                className="bg-blue-700 text-white p-3 rounded w-full"
               >
                 Reset Password
               </button>

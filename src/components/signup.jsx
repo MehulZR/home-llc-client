@@ -89,14 +89,14 @@ function SignupForm() {
                 name="email"
                 type="text"
                 placeholder="Email"
-                className="outline-none p-2 bg-gray-100 rounded"
+                className="outline-none p-2 bg-gray-100 rounded w-full"
               />
               <ErrorMessage name="email" />
               <Field
                 name="password"
                 type="password"
                 placeholder="Password"
-                className="outline-none p-2 bg-gray-100 rounded"
+                className="outline-none p-2 bg-gray-100 rounded w-full"
               />
               <ErrorMessage name="password" />
               <button
