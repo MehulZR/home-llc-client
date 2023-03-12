@@ -12,7 +12,8 @@ npm install
 
 # Configuring the Environment Variables
 
-_A preconfigured **.env** file is already included_
+_A preconfigured **.env** file is already included._
+
 Open the **.env** file with a text editor and change the Environment Variables value respectivily.
 
 - VITE_BACKEND_URL
