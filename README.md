@@ -11,20 +11,6 @@ Use the package manager [npm](https://docs.npmjs.com/downloading-and-installing-
 npm install
 ```
 
-# Setting up the Environment Variables
-
-1. Create a **.env.local file** in the root of the directory.
-
-```bash
-touch .env.local
-```
-
-2. Open the **.env.local** file with a text editor and declare a Environment Variable with name **VITE_BACKEND_URL**
-
-```
-VITE_BACKEND_URL=http://localhost:8000 
-```
-
 # Usage
 
 1. Starting Dev Server
